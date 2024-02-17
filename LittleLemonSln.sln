@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleLemon", "LittleLemon\LittleLemon.csproj", "{822B9962-70E2-42BE-B39B-C0FEBEFC1F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleLemon.Tests", "LittleLemon.Tests\LittleLemon.Tests.csproj", "{960BA376-FAA4-418A-9457-01F8F630E5FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{822B9962-70E2-42BE-B39B-C0FEBEFC1F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822B9962-70E2-42BE-B39B-C0FEBEFC1F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822B9962-70E2-42BE-B39B-C0FEBEFC1F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822B9962-70E2-42BE-B39B-C0FEBEFC1F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960BA376-FAA4-418A-9457-01F8F630E5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960BA376-FAA4-418A-9457-01F8F630E5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960BA376-FAA4-418A-9457-01F8F630E5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960BA376-FAA4-418A-9457-01F8F630E5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
