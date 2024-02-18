@@ -1,4 +1,23 @@
 # Design Models
 
-#### Conceptual Model
+## Conceptual Model
 ![](./Conceptual_Model_ERD.png)
+
+## Logical Model
+
+ENTITIES AND ATTRIBUTES:
+
+    - BOOKING : BOOKING_ID, DATE, TABLE_NO
+
+    - ORDER : ORDER_ID, ORDER_DATE, QUANTITY, TOTAL_COST
+
+    - ORDERSTATUS : ORD_STATUS_ID, DATE
+
+    - MENU : MENU_ID, MENU_COURSES, MENU_DRINKS, MENU_DESSERTS
+
+    - CUSTOMER : CUS_ID, CUS_FNAME, CUS_LNAME, CUS_PHONENUMBER, CUS_ADDRESS
+
+    - STAFF : STAFF_ID, STAFF_ROLE, STAFF_SALARY 
+
+![](./Logical_Model_ERD.png)
+
