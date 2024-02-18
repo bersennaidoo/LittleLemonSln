@@ -21,3 +21,15 @@ ENTITIES AND ATTRIBUTES:
 
 ![](./Logical_Model_ERD.png)
 
+## Normalization
+
+#### Sample Data
+![](./Sample_Table_Data.png)
+
+Revised Entities:
+ 
+    - CUSTOMER : CUS_ID, CUS_FNAME, CUS_LNAME
+    
+    - ADDRESS : ADDR_STREET, ADDR_CITY, ADDR_ZIPCODE, ADDR_COUNTRY
+
+    - PHONE : PH_NUMBER
