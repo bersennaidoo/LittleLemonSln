@@ -48,3 +48,6 @@ Revised Entities:
 
 ## VERIFIED LOGICAL MODEL
 ![](./Verified_Logical_ERD.png)
+
+## PHYSICAL MODEL ERD
+![](./Physical_Model.png)
