@@ -1,0 +1,25 @@
+DROP PROCEDURE IF EXISTS GetMaxQuatity;
+
+DELIMITER //
+CREATE PROCEDURE  GetMaxQuatity()
+BEGIN
+    SELECT MAX(ORD_QUANTITY) AS 'Max Quatity in Order'
+    FROM LittleLemonDB.ORDER;
+END //
+
+DELIMITER ;
+
+CALL GetMaxQuatity();
+
+DROP PROCEDURE IF EXISTS CancelOrder;
+
+DELIMITER //
+CREATE PROCEDURE CancelOrder(IN orderID INT)
+BEGIN
+    DELETE FROM LittleLemonDB.ORDER
+    WHERE ORD_ID = orderID;
+END //
+
+DELIMITER ;
+
+CALL CancelOrder(5);
