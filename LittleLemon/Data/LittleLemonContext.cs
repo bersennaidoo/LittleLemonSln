@@ -15,5 +15,7 @@ namespace LittleLemon.Data
         }
 
         public DbSet<LittleLemon.Models.Customer> Customer { get; set; } = default!;
+        public DbSet<LittleLemon.Models.Contact> Contact { get; set; } = default!;
+        public DbSet<LittleLemon.Models.Order> Order { get; set; } = default!;
     }
 }
