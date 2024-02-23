@@ -19,6 +19,16 @@ namespace LittleLemon.Controllers
             _context = context;
         }
 
+        //Get: Customer
+        public async Task<IActionResult> TotalCost()
+        {
+            var cusorders = from cus in _context.Customer
+                join ord in _context.Order on cus.Id equals ord.CustomerId
+                where ord.OrderCost > 60
+                select cus;
+            return View(cusorders);
+        }
+
         // GET: Customer
         public async Task<IActionResult> Index()
         {
